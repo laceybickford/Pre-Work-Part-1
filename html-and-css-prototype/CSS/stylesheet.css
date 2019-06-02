@@ -19,8 +19,8 @@ h1 {
 }
 
 .container {
-	margin: 2em auto;
-	max-width: 630px;
+	margin: auto;
+	max-width: 700px;
 	text-align: center;
 }
 
@@ -40,3 +40,130 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.lacey-container {
+	margin: 38px auto;
+	width: 604px;
+	height: 700px;
+	text-align: center;
+	display: grid;
+	grid-template-rows: 14.25% 67% 20%;
+	grid-row-gap: 24px;
+}
+
+.box-1 {
+	text-align: center;
+	font-size: 29px;
+	background-color: #424242;
+	color: white;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	border-radius: 6px;
+	padding: 30px;
+}
+
+.arrow-down {
+	position: relative;
+	right: -475px;
+	bottom: -25px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+
+  border-top: 20px solid #424242;
+}
+
+.box-2 {
+	background-color: white;
+	font-size: 29px;
+  border-color: #dadada;
+  border-width: 2px;
+  border-style: solid;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	color: #777;
+	text-align: left;
+	box-shadow: 0 3px #eaeaea;
+}
+
+.box-3 {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.progressbar {
+	border-bottom: 2px solid #dadada;
+	width: 100%;
+	height: 25px;
+}
+
+.progressbar-fill{
+	height: 100%;
+	width: 75%;
+	background-color: #EF5F3C;
+
+}
+
+.box-2 p {
+	margin: 28px 38px;
+
+}
+
+.orange-font {
+	color: #EF5F3C;
+	font-weight: bold;
+}
+
+.grey-font {
+	color: #777;
+}
+
+.give-now-form {
+	margin: 0 38px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.give-now-form .box {
+	width: 47%;
+	height: 103px;
+	font-weight: bold;
+	border-radius: 5px;
+
+}
+
+.give-now-form .input {
+	text-align: left;
+	padding: 25px 15px;
+	font-size: 35px;
+	color: black;
+	border: 2px solid #dadada;
+
+}
+
+.give-now-form .button {
+	background-color: #1CBC2C;
+	text-align: center;
+	padding: 25px 20px;
+	font-size: 33px;
+	color: white;
+}
+
+.blue-font{
+	font-style: italic;
+	color: #20A1D4;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 28px;
+}
+
+.bottom-buttons {
+	border: 2px solid #dadada;
+	width:47%;
+	height: 80px;
+	color:  #777;
+	font-size: 26px;
+	font-weight: bold;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 3px #dadada;
+}
